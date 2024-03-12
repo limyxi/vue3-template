@@ -1,0 +1,20 @@
+.el-button+.el-button{
+  margin-left: 10px!important;
+}
+.el-form-item__label{
+  color:#000000!important;
+  padding:0!important;
+}
+.el-table{
+  // font-size: 12px!important;
+  .el-table__header{
+    font-size: 14px!important;
+    th {
+      background: var(--color-grey-back)!important;
+      color: #222222!important;
+    }
+  }
+}
+.el-form--inline .el-form-item{
+  margin-right:10px!important;
+}

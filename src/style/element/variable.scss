@@ -1,0 +1,15 @@
+$--colors: (
+  'primary': (
+    'base':#0277FF
+  ),
+);
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: $--colors,
+  $border-radius:(
+    'base':2px
+  ),
+);
+
+@use "element-plus/theme-chalk/src/index.scss" as *;
+

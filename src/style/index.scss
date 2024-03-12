@@ -1,0 +1,25 @@
+@use "./mixin.scss" as *;
+@use "./atomic.scss" as *;
+@use "./transition.scss" as *;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+      "微软雅黑", Arial, sans-serif;
+  font-size: 14px;
+}
+
+#app, #root, body, html {
+  height: 100%;
+}
+body, html {
+  box-sizing: border-box;
+}
+.primary-text{
+  @include primary-text
+}
+
+.icon-item{
+  width: 12px;
+}

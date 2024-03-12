@@ -1,0 +1,20 @@
+@mixin primary-text {
+  color: var(--color-primary);
+  cursor: pointer;
+}
+@mixin flex-align-center {
+  display: flex;
+  align-items: center;
+}
+@mixin flex-justify-center {
+  display: flex;
+  justify-content: center;
+}
+@mixin flex-justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin flex-justify-end {
+  display: flex;
+  justify-content: flex-end;
+}
